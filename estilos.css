@@ -1,0 +1,46 @@
+header {
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h1 {
+    font-family: 'Amatic SC', cursive ;
+    text-align: center;
+    font-size: 30px;
+    
+}
+span {
+    color: red;
+    background-color: red;
+}
+.card{
+    margin: 5px;
+    border-color: white;
+  display: block;
+  margin: auto;
+}
+.Primerimagen {
+    width: 1500px;
+    height: 1000px;
+    display:block;
+margin:auto;
+}
+p {
+    
+    color: white;
+    background-color: black;
+    font-size: 100PX;
+    text-align: center;
+    
+}
+.IMAGENBOX {
+    width: 1515px;
+    height: 801px;
+    background-image:url(IMG4.jpg);
+}
