@@ -1,3 +1,4 @@
+
 header {
     background-color: black;
     font-size: 15px;
@@ -18,18 +19,45 @@ h1 {
 span {
     color: red;
     background-color: red;
+
+}
+.fotosmed {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.fotosmedianas img{
+    padding: 15px;
+    width:700px;
+    height:700px;
+    border: 5px;
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+}
+.fotosmedianas img:hover{
+    transform: scale(0.91);
+    overflow: hidden;
 }
 .card{
-    
+    padding: 20px;
     border-color: white;
-  display: block;
-  margin: auto;
+    display: block;
+    margin: auto;
 }
+
+.card img:hover{
+    border: 1px solid transparent;
+    transform: rotate(-5deg);
+   
+}
+
 .Primerimagen {
     width: 1500px;
     height: 1000px;
     display:block;
-margin:auto;
+    margin:auto;
 }
 p {
     
@@ -48,11 +76,7 @@ a {
     
     color: black;
 }
-.BOXES {
-    background-color: black;
-   
 
-}
 .card-text{
     text-align: start;
     font-size: 35px;
@@ -77,9 +101,54 @@ button {
     
     
 }
-.carousel-inner >img {
-    object-fit: scale-down;
-    height: 60px;
-    width: 10px;
-    
-  }
+div.galeria {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float:inline-start;
+    width: 350px;
+
+}
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+div.galeria2 {
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+    float:inline-start;
+    width: 350px;
+
+}
+div.galeria2 img {
+    width: 100%;
+    height: auto;
+}
+div.galeria2:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+.card-footer {
+    background-color:transparent;
+}
+.card-img-top img{
+    border: 10px;
+    border-color: blue;
+}
+.fondoturo {
+    background-color:lightgreen;
+    padding: 90px;
+}
+.fondoturo img:hover{
+    transform: scale(1.15);
+}
+.botoncotizar:hover{
+    font-size: 20px;
+}
+.botonprimario{
+        background-color: transparent;
+        border-color: transparent;
+ }
