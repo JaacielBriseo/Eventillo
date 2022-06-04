@@ -44,4 +44,42 @@ p {
     height: 801px;
     background-image:url(IMG4.jpg);
 }
+a {
+    
+    color: black;
+}
+.BOXES {
+    background-color: black;
+   
 
+}
+.card-text{
+    text-align: start;
+    font-size: 35px;
+}
+button {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.imageninv {
+    width: 1515px;
+    height: 802px;
+    background-image: url(IMG14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.invitext{
+    font-size: 45px;
+    text-align:end;
+    color:black;
+    
+    
+}
+.carousel-inner >img {
+    object-fit: scale-down;
+    height: 60px;
+    width: 10px;
+    
+  }
