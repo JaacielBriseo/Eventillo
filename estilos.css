@@ -104,9 +104,13 @@ button {
 div.galeria {
     margin: 10px 20px;
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
-    float:inline-start;
     width: 350px;
-
+    padding: 5px;
+    align-items: center;
+}
+.galeriapadre{
+display: flex;
+flex: 25%;
 }
 div.galeria img {
     width: 100%;
@@ -115,21 +119,7 @@ div.galeria img {
 div.galeria:hover{
     border: 1px solid lightcoral;
     transform: rotate(-3deg);
-}
-div.galeria2 {
-    margin: 10px 20px;
-    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
-    float:inline-start;
-    width: 350px;
-
-}
-div.galeria2 img {
-    width: 100%;
-    height: auto;
-}
-div.galeria2:hover{
-    border: 1px solid lightcoral;
-    transform: rotate(-3deg);
+    transform: scale(1.1);
 }
 .card-footer {
     background-color:transparent;
